@@ -1,0 +1,5 @@
+foundry-local-sdk
+openai
+numpy
+pdfplumber
+streamlit

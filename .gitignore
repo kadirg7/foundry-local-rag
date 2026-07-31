@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+*.db
+*.db-wal
+*.db-shm
+docs/*.pdf
+docs/*.txt
+docs/*.jsonl
+cantek-uyarlama.md
+Summer School Foundry Local Plan.docx.pdf
+*.pptx
