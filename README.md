@@ -2,7 +2,7 @@
 
 A document Q&A assistant that runs entirely on your own machine. It answers questions about cold chain and refrigeration by retrieving passages from a source report and grounding the model's answer in them.
 
-No cloud. No API keys. No outbound network calls after the first model download.
+Everything runs on your machine: no cloud service, no API keys, and no network calls once the models are downloaded.
 
 Built with [Microsoft Foundry Local](https://learn.microsoft.com/en-us/azure/foundry-local/) for on-device inference.
 
@@ -13,7 +13,7 @@ Built with [Microsoft Foundry Local](https://learn.microsoft.com/en-us/azure/fou
 - Answers questions from a local document collection using Retrieval-Augmented Generation (RAG)
 - Grounds every answer in retrieved passages and shows them with similarity scores
 - Refuses to answer when the knowledge base doesn't cover the question, instead of guessing
-- Runs fully offline on CPU, no GPU required
+- Runs fully offline on the CPU without a GPU
 
 ---
 
@@ -125,7 +125,7 @@ Currently indexed: **145 chunks** (~200 words each, 30-word overlap) from pages 
 
 ## Evaluation
 
-The system is tested against 10 questions in two categories: six the report **can** answer, and four it **cannot**. The metric is whether the system behaves correctly, answering when it has grounding, refusing when it doesn't.
+The system is tested against 10 questions in two categories: six the report **can** answer, and four it **cannot**. The metric is whether the system behaves correctly: it should answer when it has grounding and refuse when it does not.
 
 ```
 [PASS] (answerable,   top=0.686) What is precooling?
