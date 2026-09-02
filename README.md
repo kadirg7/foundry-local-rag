@@ -208,6 +208,14 @@ The threshold value came from the data. Answerable questions scored 0.58-0.73; u
 
 ---
 
+## Acknowledgments
+
+This project was built during the Microsoft AI Innovators Internship Program (Summer 2026). Thanks to Barbaros Günay (CSA Manager, Microsoft Türkiye) for organizing the program.
+
+![Certificate of completion](certificate.jpg)
+
+---
+
 ## License and attribution
 
 Code in this repository is provided for educational purposes.
