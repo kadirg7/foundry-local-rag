@@ -21,7 +21,9 @@ Built with [Microsoft Foundry Local](https://learn.microsoft.com/en-us/azure/fou
 
 A short screen recording of the assistant answering a grounded question and refusing an out-of-scope one:
 
-[Watch the demo](demo.mp4)
+
+https://github.com/user-attachments/assets/03cf94c6-b852-426a-8054-29a497d8bb60
+
 
 ---
 
