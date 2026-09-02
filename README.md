@@ -17,6 +17,14 @@ Built with [Microsoft Foundry Local](https://learn.microsoft.com/en-us/azure/fou
 
 ---
 
+## Demo
+
+A short screen recording of the assistant answering a grounded question and refusing an out-of-scope one:
+
+[Watch the demo](demo.mp4)
+
+---
+
 ## Screenshots
 
 **Grounded answer with retrieved sources**
